@@ -12,18 +12,11 @@ namespace EventHubConsume
     {
 
 
-        private const string EventHubConnectionString = "Endpoint=sb://cloud-hackers-eventhub.servicebus.windows.net/;SharedAccessKeyName=cloudhackersSAP;SharedAccessKey=OiR+cURXNOFommsGb2q+lmuDPVoYJty/OJcCDW82HoU=;EntityPath=cloud-hackers-events";
-        private const string EventHubName = "cloud-hackers-events";
-        private const string StorageContainerName = "cloud-hackers-container";
-        private const string StorageAccountName = "cloudhackersstorage";
-        private const string StorageAccountKey = "adb/4QO+vx8wCfo0O5soTclfEW8bdW70SvCSlhJHKVoLtDSuau0H/4KFFDfYFkF8nv4JWL4DPyx41x7xBHBd0Q==";
-
-        //OLD 
-        //private const string EventHubConnectionString = "Endpoint=sb://cts-blr-evenhub.servicebus.windows.net/;SharedAccessKeyName=cts-blr-eventhub-SASPolicy;SharedAccessKey=eAz2s4WI91qzdiPcKehsv1PYyfG9Ihx99pAN1DLBUkE=;EntityPath=cts-blr-events";
-        //private const string EventHubName = "cts-blr-events";
-        //private const string StorageContainerName = "cts-blr-container";
-        //private const string StorageAccountName = "ctsblrstorage";
-        //private const string StorageAccountKey = "GLQ0L4U6/jZgtJpzHM+dXLr/gwauvMu4yCV7SuJXp+0jGO9FqV8nSXoRl8chVBVND7wz4DfRpdG8qh01iP1FwA==";
+        private const string EventHubConnectionString = "";
+        private const string EventHubName = "";
+        private const string StorageContainerName = "";
+        private const string StorageAccountName = "";
+        private const string StorageAccountKey = "";
 
         private static readonly string StorageConnectionString = string.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", StorageAccountName, StorageAccountKey);
 
